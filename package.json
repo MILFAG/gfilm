@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "cropperjs": "^1.6.2",
+    "express": "^4.19.2",
+    "muuri": "^0.9.5",
+    "web-animations-js": "^2.3.2"
+  },
+  "devDependencies": {
+    "gridstack": "^10.1.2"
+  }
+}

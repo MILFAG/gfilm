@@ -1,0 +1,164 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: hidden;
+    /*overflow: hidden;*/
+}
+
+.divFondo{
+    background-image: url('../assets/fondo.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0.35rem;
+    margin-top: 0.7rem;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+}
+
+img.imgLogo{
+    position: relative;
+    width: 320px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.divDemo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: fit-content;
+    user-select: none;
+    margin: 0.5rem;
+}
+
+img.imgDemo{
+    width: 85%;
+    height: auto;
+    pointer-events: none;
+}
+
+
+.divBuscarImagenes{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    margin-top: 3.5%;
+}
+
+/*botones*/
+button{
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    width: 15%;
+}
+
+
+img.agregar{
+    width: 25%;
+    height:25%;
+    pointer-events: none;    
+}
+
+img.enviar{
+    width: 70%;
+    height:70%;
+    pointer-events: none;   
+}
+
+img.previsualizar{
+    width: 70%;
+    height:70%;
+    pointer-events: none;
+}
+
+img.cancelar{
+    width: 70%;
+    height:70%;
+    pointer-events: none;
+}
+
+img.text{
+    width: 15%;
+    height: 15%;
+    pointer-events: none;
+}
+
+#divContainer{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    margin-top: 3.5%;
+}
+
+.divCanvas{
+    display: flex;
+}
+#canvas{
+    max-width: 100%;
+    
+}
+
+#divBotonera{
+    margin-top: 2.5%;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+}
+
+.divResult{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loadingGif{
+    width: 35%;
+    height: auto;
+}
+
+.imgSimilar{
+    width: 30%;
+    height: auto;
+}
+
+.preview-container{
+    position: relative;
+    width: 400px; 
+    height: 400px; 
+}
+
+.preview{
+    position: relative;
+}
+
+img.imgFrame{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: auto;
+}
+
+img.imgPreview{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    width: 71%; 
+    height: auto;
+}
+
+/*Clases genericas*/
+.hide{
+    display: none;
+}
+

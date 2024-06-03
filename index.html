@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="node_modules/cropperjs/dist/cropper.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/gridstack@10.2.0/dist/gridstack.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    
+
+    <title>gFilm</title>
+</head>
+<body>
+    <header>
+        <div class="divFondo">
+            <img class="imgLogo" src="/assets/logo.png" alt="">
+        </div>
+    </header>
+    <div class="divBuscarImagenes">
+        <input type="file" id="fileInput" style="display: none;">
+        <button id="btnAdd" class="btnAdd">
+            <img class="agregar"  src="/assets/btn_agregar.png" alt="">
+        </button>
+        <img class="text" src="./assets/texto.png" alt="">   
+    </div>
+    <div class="divDemo">
+        <img class="imgDemo" src="/assets/demo.png" alt="">
+    </div>
+    <div id="divContainer">
+        <div class="divCanvas">
+            <canvas id="canvas" height="450px" ></canvas>
+        </div>
+        <button id="btnPreview" class="hide">
+            <img class="previsualizar" src= "/assets/btn_vista_previa.png" alt="">
+        </button>
+    </div>
+    <div id="divBotonera">
+        <button id="btnCancel" class="hide" >
+            <img class="cancelar" src="./assets/btn_cancelar.png" alt="">
+        </button>
+        <button id="btnSend" class="hide" >
+            <img class="enviar" src="./assets/btn_enviar.png" alt="">
+        </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/cropperjs/dist/cropper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gridstack@10.2.0/dist/gridstack.min.js"></script>
+    <script type="module" src="main.js"></script>
+
+</body>
+</html>
